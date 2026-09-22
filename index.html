@@ -498,15 +498,26 @@
 
       const subject = 'Booking inquiry - ' + eventDate + ' - ' + venue;
       const body = [
-        'Booking inquiry from ' + fullName,
+        'Hey Darren,',
+        '',
+        'I\'d like to book you for an event on ' + eventDate + '.',
+        '',
+        'Here are the details:',
         '',
         'Date: ' + eventDate,
-        'Set time: ' + eventTime,
-        'Set length: ' + eventLength,
+        'Set Time: ' + eventTime,
+        'Set Length: ' + eventLength,
         'Venue: ' + venue,
         '',
-        'Event description:',
-        description
+        'Event Details:',
+        description,
+        '',
+        'Please let me know if you\'re available for this date and time, and we can discuss the details further.',
+        '',
+        'Looking forward to hearing from you!',
+        '',
+        'Best,',
+        fullName
       ].join('\n');
 
       const whatsappNumber = '639511501705';
