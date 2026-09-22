@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darren Luistro</title>
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='80'%3E%F0%9F%92%BF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <a class="wordmark" href="#top">Darren Luistro</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">Menu</button>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#biography">Biography</a>
+      <a href="#events">Events</a>
+      <a href="#booking">Booking</a>
+      <div class="nav-socials">
+        <a class="badge" href="https://www.instagram.com/darrenluistro/" title="Instagram">IG</a>
+        <a class="badge" href="https://on.soundcloud.com/ZUNVJImg4RYRXdxGRD" title="SoundCloud">SC</a>
+        <a class="badge" href="https://www.youtube.com/@darrenluistro" title="Youtube">YT</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <svg class="record" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Spinning vinyl record">
+      <defs>
+        <radialGradient id="vinylGlow" cx="35%" cy="30%" r="70%">
+          <stop offset="0%" stop-color="#1a1a1a" />
+          <stop offset="35%" stop-color="#0b0b0b" />
+          <stop offset="100%" stop-color="#000000" />
+        </radialGradient>
+        <linearGradient id="vinylGrooveSheen" x1="0" y1="0" x2="100" y2="0" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#dce8eb" stop-opacity="0" />
+          <stop offset="38%" stop-color="#eaf5f7" stop-opacity="0.34" />
+          <stop offset="72%" stop-color="#c9d9dd" stop-opacity="0.14" />
+          <stop offset="100%" stop-color="#dce8eb" stop-opacity="0" />
+        </linearGradient>
+        <clipPath id="vinylLeftSide">
+          <rect x="0" y="0" width="100" height="200" />
+        </clipPath>
+      </defs>
+
+      <circle cx="100" cy="100" r="98" fill="url(#vinylGlow)" />
+      <circle cx="100" cy="100" r="97" fill="none" stroke="var(--vinyl-edge)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="92" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="88" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="84" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="80" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="76" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="72" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="68" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="64" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="60" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="56" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="52" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="48" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="44" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="40" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="36" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+      <circle cx="100" cy="100" r="31" fill="none" stroke="var(--vinyl-groove)" stroke-width="1.1" />
+
+      <g clip-path="url(#vinylLeftSide)" fill="none" stroke="url(#vinylGrooveSheen)" stroke-width="1.1" opacity="0.72">
+        <circle cx="100" cy="100" r="92" />
+        <circle cx="100" cy="100" r="88" />
+        <circle cx="100" cy="100" r="84" />
+        <circle cx="100" cy="100" r="80" />
+        <circle cx="100" cy="100" r="76" />
+        <circle cx="100" cy="100" r="72" />
+        <circle cx="100" cy="100" r="68" />
+        <circle cx="100" cy="100" r="64" />
+        <circle cx="100" cy="100" r="60" />
+        <circle cx="100" cy="100" r="56" />
+        <circle cx="100" cy="100" r="52" />
+        <circle cx="100" cy="100" r="48" />
+        <circle cx="100" cy="100" r="44" />
+        <circle cx="100" cy="100" r="40" />
+        <circle cx="100" cy="100" r="36" />
+        <circle cx="100" cy="100" r="31" />
+      </g>
+
+      <circle cx="100" cy="100" r="34" fill="var(--vinyl-label)" />
+      <circle cx="100" cy="100" r="34" fill="none" stroke="var(--vinyl-label-shadow)" stroke-width="1.2" />
+      <circle cx="100" cy="100" r="3.5" fill="#1a1a1a" />
+      <text x="100" y="97" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="8"
+        fill="#17120C">DARREN</text>
+      <text x="100" y="108" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="8"
+        fill="#17120C">LUISTRO</text>
+    </svg>
+    <h1>Darren Luistro</h1>
+    <p class="tagline">Warm records, patient builds, and a floor that moves together. Spinning soul, house, and
+      everything in between.</p>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="#booking">Book Darren</a>
+      <a class="btn" href="#biography">Read the story</a>
+    </div>
+    <span class="scroll-cue">SCROLL ↓</span>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <div>
+        <img class="about-photo" src="img/about_img.jpg" alt="Darren Luistro">
+        <p style="font-family:'Fraunces', serif; font-size:1.3rem; color:var(--ink); font-style:italic;">&ldquo;Every
+          set is a conversation — you play a little, the room answers back, and somewhere in there the night finds its
+          shape.&rdquo;</p>
+      </div>
+      <div>
+        <span class="label">About</span>
+        <h2>The short version</h2>
+        <p>Darren Luistro is a DJ who treats a set like a story worth telling slowly. Equal parts crate-digger and host,
+          he reads a room the way old radio hosts used to — a little soul here, a little groove there, always building
+          toward the moment everyone's moving without quite noticing when it started.</p>
+        <p>Whether it's an intimate bar set or a full room on its feet, Darren's approach stays the same: good records,
+          played with care, in the right order.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bio" id="biography">
+    <div class="wrap">
+      <div>
+        <span class="label">Biography</span>
+        <h2>How it started</h2>
+        <p>Darren's first record player was a hand-me-down, and the first crate of vinyl came from a relative's closet —
+          mostly soul and funk, a little scratched, all of it formative. What began as curiosity about how those records
+          were made turned into hours spent learning to blend one into the next, chasing the feeling of a transition
+          nobody notices until it's already happened.</p>
+        <p>From bedroom sessions to friends' parties to his first real bar gig, Darren built a reputation the old way:
+          by showing up prepared, reading the crowd honestly, and never playing down to a room. Along the way his sound
+          widened — house, disco, R&amp;B, a little bit of everything with groove in it — but the throughline never
+          changed. It's still about the record, the room, and the moment they meet.</p>
+        <p>These days Darren plays a mix of club nights, private events, and the occasional late-night radio hour,
+          always looking for the next crate worth digging through.</p>
+      </div>
+      <div class="photo-placeholder">
+        <img src="img/biography_img.jpg" alt="Darren Luistro">
+      </div>
+    </div>
+    <div class="bio-highlights wrap">
+      <span class="label">Highlights</span>
+      <div class="bio-videos">
+        <video class="bio-video" controls preload="metadata" src="videos/dj_vid1.mp4"></video>
+        <video class="bio-video" controls preload="metadata" src="videos/dj_vid2.mp4"></video>
+        <video class="bio-video" controls preload="metadata" src="videos/dj_vid3.mp4"></video>
+      </div>
+      <div class="bio-more-videos">
+        <div class="bio-more-heading">
+          <span class="label">Watch more videos</span>
+        </div>
+        <div class="youtube-previews">
+          <a id="youtubePreview" class="youtube-preview" href="#" target="_blank" rel="noopener">
+            <img id="youtubeThumbnail" src="" alt="YouTube video thumbnail" hidden>
+            <span id="youtubeTitle">Click to add a YouTube video</span>
+          </a>
+          <a id="youtubePreview2" class="youtube-preview" href="https://www.youtube.com/watch?v=0hKYdp6ccQg"
+            target="_blank" rel="noopener">
+            <img id="youtubeThumbnail2" src="https://img.youtube.com/vi/0hKYdp6ccQg/mqdefault.jpg"
+              alt="YouTube video thumbnail">
+            <span id="youtubeTitle2">YouTube video</span>
+          </a>
+          <a id="youtubePreview3" class="youtube-preview" href="https://www.youtube.com/watch?v=BRGN897fWrs"
+            target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/BRGN897fWrs/mqdefault.jpg" alt="YouTube video thumbnail">
+            <span id="youtubeTitle3">YouTube video</span>
+          </a>
+          <a id="youtubePreview4" class="youtube-preview" href="https://www.youtube.com/watch?v=a6iemP8B7bM"
+            target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/a6iemP8B7bM/mqdefault.jpg" alt="YouTube video thumbnail">
+            <span id="youtubeTitle4">YouTube video</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="events" id="events">
+    <div class="wrap">
+      <span class="label">Events</span>
+      <h2>On the decks</h2>
+
+      <div class="side-title"></div>
+      <div class="track">
+        <span class="idx"></span>
+        <span class="date">SEPTEMBER 20, 2026</span>
+        <div><span class="venue">Vagabondo Resto Bar</span><span class="city">Toronto, Canada</span></div>
+      </div>
+      <div class="track">
+        <span class="idx"></span>
+        <span class="date">OCTOBER 03, 2026</span>
+        <div><span class="venue">Ish Fights</span><span class="city">Toronto, Canada</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+    <div class="wrap">
+      <span class="label">Booking</span>
+      <h2>Bring Darren to your event</h2>
+      <p>Fill out a few details below and Darren will get back to you about availability and rates.</p>
+      <form id="bookingForm" action="#booking">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="Name" type="text" placeholder="Your name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="eventdate">Event date <span class="required-mark">*</span></label>
+          <div class="calendar-field">
+            <input id="eventdate" name="Event date" type="text" placeholder="Select an event date" aria-required="true"
+              readonly required>
+            <button id="calendarToggle" class="calendar-toggle" type="button" aria-label="Open calendar">▾</button>
+            <div id="calendarPicker" class="calendar-picker" hidden>
+              <div class="calendar-header">
+                <button id="previousMonth" type="button" aria-label="Previous month">‹</button>
+                <strong id="calendarMonth"></strong>
+                <button id="nextMonth" type="button" aria-label="Next month">›</button>
+              </div>
+              <div class="calendar-weekdays" aria-hidden="true">
+                <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+              </div>
+              <div id="calendarDays" class="calendar-days"></div>
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="eventtime">Set time <span class="required-mark">*</span></label>
+          <div class="booking-select-field" data-booking-select>
+            <input id="eventtime" name="Set time" class="booking-select-value" type="text" placeholder="Select set time"
+              readonly required aria-haspopup="listbox">
+            <button class="booking-select-toggle" type="button" aria-label="Choose set time">▾</button>
+            <div class="booking-options" role="listbox" hidden></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="eventlength">Set length <span class="required-mark">*</span></label>
+          <div class="booking-select-field" data-booking-select>
+            <input id="eventlength" name="Set length" class="booking-select-value" type="text"
+              placeholder="Select set length" readonly required aria-haspopup="listbox">
+            <button class="booking-select-toggle" type="button" aria-label="Choose set length">▾</button>
+            <div class="booking-options" role="listbox" hidden></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="venue">Venue <span class="required-mark">*</span></label>
+          <input id="venue" name="Venue" type="text" placeholder="Venue name and location" required>
+        </div>
+        <div class="field">
+          <label for="description">Brief description of the event <span class="required-mark">*</span></label>
+          <textarea id="description" name="Brief description"
+            placeholder="Tell Darren about the event, guest count, and music style..." required></textarea>
+        </div>
+        <button class="btn btn-solid" type="submit">Send booking request</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contact">
+      Darren Luistro — <a href="mailto:arnoldparra.socials@gmail.com">arnoldparra.socials@gmail.com</a>
+    </div>
+    <div class="socials">
+      <a class="badge" href="https://www.instagram.com/darrenluistro/" title="Instagram">IG</a>
+      <a class="badge" href="https://on.soundcloud.com/ZUNVJImg4RYRXdxGRD" title="SoundCloud">SC</a>
+      <a class="badge" href="https://www.youtube.com/@darrenluistro" title="Youtube">YT</a>
+
+    </div>
+    <div class="fineprint">&copy; 2026 Darren Luistro. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('menuToggle').addEventListener('click', function () {
+      document.getElementById('nav').classList.toggle('open');
+    });
+
+    document.addEventListener('click', function (event) {
+      const nav = document.getElementById('nav');
+      const menuToggle = document.getElementById('menuToggle');
+      if (nav.classList.contains('open') && !nav.contains(event.target) && event.target !== menuToggle) {
+        nav.classList.remove('open');
+      }
+    });
+
+    function animateElement(element) {
+      element.classList.add('is-visible');
+      void element.offsetWidth;
+      if (element.classList.contains('record')) {
+        element.style.opacity = '0.9';
+        return;
+      }
+      element.style.opacity = '1';
+      element.style.transform = 'translateY(0)';
+    }
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const revealSections = document.querySelectorAll('section:not(.hero)');
+
+    revealSections.forEach(function (section) {
+      section.classList.add('reveal-on-scroll');
+    });
+
+    function revealSectionsInView() {
+      revealSections.forEach(function (section) {
+        if (section.classList.contains('is-visible')) return;
+        const bounds = section.getBoundingClientRect();
+        if (bounds.top < window.innerHeight * 0.92 && bounds.bottom > 0) {
+          animateElement(section);
+        }
+      });
+    }
+
+    revealSectionsInView();
+    window.addEventListener('scroll', revealSectionsInView, { passive: true });
+
+    // Soft entrance animation for the hero on page load, staggered like the
+    // scroll-reveal above. The record only gets the opacity-only fade class
+    // (.hero-fade-in) so its spin animation is never touched.
+    const heroFadeElements = [document.querySelector('.record')];
+    const heroRevealElements = [
+      document.querySelector('.hero h1'),
+      document.querySelector('.hero .tagline'),
+      document.querySelector('.hero .cta-row'),
+      document.querySelector('.hero .scroll-cue')
+    ];
+
+    heroFadeElements.forEach(function (element) {
+      if (element) element.classList.add('hero-fade-in');
+    });
+    heroRevealElements.forEach(function (element) {
+      if (element) element.classList.add('reveal-on-scroll');
+    });
+
+    setTimeout(function () {
+      heroFadeElements.concat(heroRevealElements).forEach(function (element, index) {
+        if (!element) return;
+        setTimeout(function () {
+          animateElement(element);
+        }, index * 110);
+      });
+    }, 40);
+
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        const targetId = link.getAttribute('href');
+        if (!targetId || targetId === '#') return;
+
+        const target = document.querySelector(targetId);
+        if (!target) return;
+
+        event.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        animateElement(target);
+        document.getElementById('nav').classList.remove('open');
+      });
+    });
+
+    const bioVideos = document.querySelectorAll('.bio-video');
+    bioVideos.forEach(function (video) {
+      video.controls = false;
+    });
+
+    bioVideos.forEach(function (video) {
+      function toggleVideo() {
+        if (video.paused) {
+          video.play().catch(function () { });
+        } else {
+          video.pause();
+        }
+      }
+
+      video.addEventListener('play', function () {
+        bioVideos.forEach(function (otherVideo) {
+          if (otherVideo !== video) {
+            otherVideo.pause();
+            otherVideo.classList.remove('is-playing');
+          }
+        });
+        video.classList.add('is-playing');
+      });
+
+      video.addEventListener('pause', function () {
+        video.classList.remove('is-playing');
+      });
+
+      video.addEventListener('click', function (event) {
+        event.preventDefault();
+        toggleVideo();
+      });
+    });
+
+    const youtubePreview = document.getElementById('youtubePreview');
+    const youtubeThumbnail = document.getElementById('youtubeThumbnail');
+    const youtubeTitle = document.getElementById('youtubeTitle');
+    let youtubeVideoUrl = 'https://www.youtube.com/watch?v=xDVMxQvLzg0';
+    const youtubePreview2 = document.getElementById('youtubePreview2');
+    const youtubeTitle2 = document.getElementById('youtubeTitle2');
+    const youtubeVideoUrl2 = 'https://www.youtube.com/watch?v=0hKYdp6ccQg';
+    const youtubeTitle3 = document.getElementById('youtubeTitle3');
+    const youtubeVideoUrl3 = 'https://www.youtube.com/watch?v=BRGN897fWrs';
+    const youtubeTitle4 = document.getElementById('youtubeTitle4');
+    const youtubeVideoUrl4 = 'https://www.youtube.com/watch?v=a6iemP8B7bM';
+
+    youtubeThumbnail.src = 'https://img.youtube.com/vi/xDVMxQvLzg0/mqdefault.jpg';
+    youtubeThumbnail.hidden = false;
+    youtubePreview.href = youtubeVideoUrl;
+
+    fetch('https://www.youtube.com/oembed?url=' + encodeURIComponent(youtubeVideoUrl) + '&format=json')
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (data) {
+        if (data) youtubeTitle.textContent = data.title;
+      });
+
+    fetch('https://www.youtube.com/oembed?url=' + encodeURIComponent(youtubeVideoUrl2) + '&format=json')
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (data) {
+        if (data) youtubeTitle2.textContent = data.title;
+      });
+
+    fetch('https://www.youtube.com/oembed?url=' + encodeURIComponent(youtubeVideoUrl3) + '&format=json')
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (data) {
+        if (data) youtubeTitle3.textContent = data.title;
+      });
+
+    fetch('https://www.youtube.com/oembed?url=' + encodeURIComponent(youtubeVideoUrl4) + '&format=json')
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (data) {
+        if (data) youtubeTitle4.textContent = data.title;
+      });
+
+    youtubePreview.addEventListener('click', function (event) {
+      if (youtubeVideoUrl) return;
+      event.preventDefault();
+      const enteredUrl = prompt('Paste the YouTube video link:');
+      if (!enteredUrl) return;
+
+      let videoId = '';
+
+      try {
+        const url = new URL(enteredUrl);
+        if (url.hostname === 'youtu.be') {
+          videoId = url.pathname.slice(1);
+        } else if (url.hostname.includes('youtube.com')) {
+          videoId = url.searchParams.get('v') || url.pathname.match(/\/(?:shorts|embed|live)\/([^/?]+)/)?.[1] || '';
+        }
+      } catch (error) {
+        videoId = '';
+      }
+
+      if (videoId) {
+        youtubeVideoUrl = enteredUrl;
+        youtubeThumbnail.src = 'https://img.youtube.com/vi/' + videoId + '/mqdefault.jpg';
+        youtubeThumbnail.hidden = false;
+        youtubePreview.href = youtubeVideoUrl;
+        youtubeTitle.textContent = 'YouTube video';
+
+        fetch('https://www.youtube.com/oembed?url=' + encodeURIComponent(youtubeVideoUrl) + '&format=json')
+          .then(function (response) { return response.ok ? response.json() : null; })
+          .then(function (data) {
+            if (data) youtubeTitle.textContent = data.title;
+          })
+          .catch(function () {
+            youtubeTitle.textContent = 'YouTube video';
+          });
+      } else {
+        alert('Please enter a valid YouTube video link.');
+      }
+    });
+
+    document.getElementById('bookingForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const fullName = document.getElementById('name').value.trim();
+      const firstName = fullName.split(/\s+/)[0];
+      const eventDate = document.getElementById('eventdate').value;
+      const eventTime = document.getElementById('eventtime').value;
+      const eventLength = document.getElementById('eventlength').value;
+      const venue = document.getElementById('venue').value.trim();
+      const description = document.getElementById('description').value.trim();
+
+      if (!selectedDate || !eventDate) {
+        document.querySelector('.calendar-field').classList.add('is-invalid');
+        eventDateInput.setCustomValidity('Please fill out this field.');
+        eventDateInput.focus();
+        eventDateInput.reportValidity();
+        return;
+      }
+
+      const subject = 'Booking inquiry - ' + eventDate + ' - ' + venue;
+      const body = [
+        'Booking inquiry from ' + fullName,
+        '',
+        'Date: ' + eventDate,
+        'Set time: ' + eventTime,
+        'Set length: ' + eventLength,
+        'Venue: ' + venue,
+        '',
+        'Event description:',
+        description
+      ].join('\n');
+
+      const whatsappNumber = '639511501705';
+      const whatsappUrl = 'https://api.whatsapp.com/send?phone=' + whatsappNumber + '&text=' + encodeURIComponent(body);
+
+      const gmailUrl = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&to=' +
+        encodeURIComponent('arnoldparra.socials@gmail.com') +
+        '&su=' + encodeURIComponent(subject) +
+        '&body=' + encodeURIComponent(body);
+      window.open(gmailUrl, '_blank', 'noopener');
+      window.location.href = whatsappUrl;
+    });
+
+    const today = new Date();
+    const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+    const eventDateInput = document.getElementById('eventdate');
+    const calendarToggle = document.getElementById('calendarToggle');
+    const calendarPicker = document.getElementById('calendarPicker');
+    const calendarMonth = document.getElementById('calendarMonth');
+    const calendarDays = document.getElementById('calendarDays');
+    const previousMonth = document.getElementById('previousMonth');
+    const nextMonth = document.getElementById('nextMonth');
+    let visibleMonth = new Date(todayStart.getFullYear(), todayStart.getMonth(), 1);
+    let selectedDate = null;
+    eventDateInput.setCustomValidity('Please fill out this field.');
+
+    eventDateInput.addEventListener('invalid', function () {
+      document.querySelector('.calendar-field').classList.add('is-invalid');
+      alert('Please fill out event date.');
+    });
+
+    function formatDate(date) {
+      return date.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+    }
+
+    function renderCalendar() {
+      const year = visibleMonth.getFullYear();
+      const month = visibleMonth.getMonth();
+      const firstDay = new Date(year, month, 1).getDay();
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+      calendarMonth.textContent = visibleMonth.toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
+      calendarDays.innerHTML = '';
+      previousMonth.disabled = visibleMonth <= new Date(todayStart.getFullYear(), todayStart.getMonth(), 1);
+
+      for (let blank = 0; blank < firstDay; blank += 1) {
+        calendarDays.appendChild(document.createElement('span'));
+      }
+
+      for (let day = 1; day <= daysInMonth; day += 1) {
+        const date = new Date(year, month, day);
+        const dayButton = document.createElement('button');
+        dayButton.type = 'button';
+        dayButton.className = 'calendar-day';
+        dayButton.textContent = day;
+        dayButton.disabled = date < todayStart;
+        if (selectedDate && date.getTime() === selectedDate.getTime()) dayButton.classList.add('selected');
+        dayButton.addEventListener('click', function () {
+          selectedDate = date;
+          eventDateInput.value = formatDate(date);
+          document.querySelector('.calendar-field').classList.remove('is-invalid');
+          eventDateInput.setCustomValidity('');
+          calendarPicker.hidden = true;
+          renderCalendar();
+        });
+        calendarDays.appendChild(dayButton);
+      }
+    }
+
+    calendarToggle.addEventListener('click', function () {
+      calendarPicker.hidden = !calendarPicker.hidden;
+      if (!calendarPicker.hidden) renderCalendar();
+    });
+
+    eventDateInput.addEventListener('click', function () {
+      calendarPicker.hidden = !calendarPicker.hidden;
+      if (!calendarPicker.hidden) renderCalendar();
+    });
+
+    previousMonth.addEventListener('click', function () {
+      visibleMonth = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() - 1, 1);
+      renderCalendar();
+    });
+
+    nextMonth.addEventListener('click', function () {
+      visibleMonth = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() + 1, 1);
+      renderCalendar();
+    });
+
+    const bookingSelects = [
+      {
+        id: 'eventtime',
+        options: Array.from({ length: 24 }, function (_, hour) {
+          const period = hour < 12 ? 'AM' : 'PM';
+          const displayHour = hour % 12 || 12;
+          return displayHour + ':00 ' + period;
+        })
+      },
+      {
+        id: 'eventlength',
+        options: [
+          '30 minutes',
+          '1 hour',
+          '1 hour 30 minutes',
+          '2 hours',
+          '2 hours 30 minutes',
+          '3 hours',
+          '3 hours 30 minutes',
+          '4 hours',
+          '4 hours 30 minutes',
+          '5 hours',
+          '5+ hours'
+        ]
+      }
+    ];
+
+    bookingSelects.forEach(function (config) {
+      const input = document.getElementById(config.id);
+      const field = input.closest('[data-booking-select]');
+      const toggle = field.querySelector('.booking-select-toggle');
+      const optionsPanel = field.querySelector('.booking-options');
+
+      config.options.forEach(function (option) {
+        const optionButton = document.createElement('button');
+        optionButton.type = 'button';
+        optionButton.className = 'booking-option';
+        optionButton.textContent = option;
+        optionButton.setAttribute('role', 'option');
+        optionButton.addEventListener('click', function () {
+          input.value = option;
+          input.setCustomValidity('');
+          optionsPanel.hidden = true;
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+        optionsPanel.appendChild(optionButton);
+      });
+
+      function toggleOptions() {
+        const shouldOpen = optionsPanel.hidden;
+        document.querySelectorAll('.booking-options').forEach(function (panel) {
+          panel.hidden = true;
+        });
+        optionsPanel.hidden = !shouldOpen;
+        toggle.setAttribute('aria-expanded', String(shouldOpen));
+      }
+
+      toggle.addEventListener('click', toggleOptions);
+      input.addEventListener('click', toggleOptions);
+    });
+
+    document.addEventListener('click', function (event) {
+      if (!event.target.closest('.calendar-field')) {
+        calendarPicker.hidden = true;
+      }
+      if (event.target.closest('[data-booking-select]')) return;
+      document.querySelectorAll('.booking-options').forEach(function (panel) {
+        panel.hidden = true;
+      });
+    });
+
+    renderCalendar();
+  </script>
+</body>
+
+</html>
